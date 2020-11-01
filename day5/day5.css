@@ -75,7 +75,7 @@ html {
   }
 
   .panel.open {
-    flex: 5;
+    flex: 3;
     font-size: 40px;
   }
   
