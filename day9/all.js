@@ -19,6 +19,10 @@ const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
         error(...args){
             if(!this.isDev){return};
             window.console.error(...args);
+        },
+        assert(...args){
+          if(!this.isDev){return};
+            window.console.assert(...args);
         }
     }
 
@@ -51,11 +55,20 @@ const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
     console.info('Crocodiles eat 3-4 people per year');
 
     // Testing
-    const p = document.querySelector('p');
+    // const p = document.querySelector('p');
 
-    console.assert(p.classList.contains('ouch'), 'That is wrong!');
+    // console.assert(p.classList.contains('ouch'), 'That is wrong!');
+
+    //如果前方為錯，給予後面的提示
+    console.assert(false,'訊息');
+    console.assert('','訊息');
+    console.assert(undefined,'訊息');
+    console.assert(NaN,'訊息');
+    console.assert(null,'訊息');
+    console.assert(0,'訊息')
 
     // clearing
+    //control+L
     console.clear();
 
     // Viewing DOM Elements
