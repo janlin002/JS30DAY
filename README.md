@@ -8,4 +8,5 @@ day-6 簡易搜尋<br>
 day-7 基本array應用2<br>
 day-8 指定區域內的繪畫<br>
 day-9 console的各種型態<br>
+day-10 shiftkey
 
