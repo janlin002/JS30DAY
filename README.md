@@ -10,5 +10,6 @@ day-8 指定區域內的繪畫<br>
 day-9 console的各種型態<br>
 day-10 shiftkey事件<br>
 day-11 自製影片播放器<br>
+day-12 輸入密碼顯示指定樣式<br>
 
 
