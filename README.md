@@ -12,6 +12,7 @@ day-10 shiftkey事件<br>
 day-11 自製影片播放器<br>
 day-12 輸入密碼顯示指定樣式<br>
 day-13 滾動後的特效呈現<br>
-day-14 js基礎
+day-14 js基礎<br>
+day-15 localStorage<br>
 
 
