@@ -14,5 +14,7 @@ day-12 輸入密碼顯示指定樣式<br>
 day-13 滾動後的特效呈現<br>
 day-14 js基礎<br>
 day-15 localStorage<br>
+day-16 滑鼠移動事件<br>
+day-17 排序問題<br>
 
 
