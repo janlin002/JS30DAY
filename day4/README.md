@@ -24,3 +24,5 @@
 
 <h3>reduce()</h3>
 <p>加總</p>
+
+文章參考：[連結](https://wcc723.github.io/javascript/2017/06/29/es6-native-array/)
