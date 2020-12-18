@@ -23,6 +23,15 @@
 <p>排序(小到大)</p>
 
 <h3>reduce()</h3>
-<p>加總</p>
+<p>reduce() 和其他幾個差異很大，他可以與前一個回傳的值再次作運算</p>
+
+```bash
+var reducePlus = people.reduce(function(accumulator, currentValue, currentIndex, array){
+  // 分別為前一個回傳值, 目前值, 當前索引值
+  console.log(accumulator, currentValue, currentIndex);
+  return accumulator + currentValue.age;  // 與前一個值相加
+}, 0);                                    // 傳入初始化值為 0
+console.log(reducePlus);
+```
 
 文章參考：[連結](https://wcc723.github.io/javascript/2017/06/29/es6-native-array/)
