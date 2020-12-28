@@ -24,6 +24,12 @@
 
 <h3>reduce()</h3>
 <p>reduce() 和其他幾個差異很大，他可以與前一個回傳的值再次作運算</p>
+<p>累加概念</p>
+
+```bash
+var arr = [1,2,3,4];
+arr.reduce(function(pre,cur){return pre + cur}); // return 10
+```
 
 ```bash
 var reducePlus = people.reduce(function(accumulator, currentValue, currentIndex, array){
