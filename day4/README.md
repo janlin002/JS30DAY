@@ -41,3 +41,7 @@ console.log(reducePlus);
 ```
 
 文章參考：[連結](https://wcc723.github.io/javascript/2017/06/29/es6-native-array/)
+
+<h1>map vs forEach</h1>
+
+[Link](https://blog.fundebug.com/2018/02/05/map_vs_foreach/)
